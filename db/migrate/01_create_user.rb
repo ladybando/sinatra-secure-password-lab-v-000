@@ -5,4 +5,5 @@ class CreateUsers < ActiveRecord::Migration
       t.decimal :balance
       t.string :password_digest
     end
-  endend
+  end
+end
